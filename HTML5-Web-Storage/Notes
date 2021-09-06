@@ -1,0 +1,20 @@
+
+Web Storage:
+
+    - Web Storage allows to store some information locally on the user's computer.
+    - Similiar to Cookies, but it is faster and much better than cookies.
+
+Type of Web Storage:
+
+    1. Local Storage
+
+    - Local Storage stores the data for your website on permanent basis.
+    - THat means, data will be available on the next day, the next week or untill you remve it.
+
+    2. Session Storage
+
+    - Session Storage stores the data for your website on temporary basis.
+    - That means, data will disappear when sessions ends i.e. 
+    - When you navigate to another window or tab.
+
+-------------------------------------------------------------------------------

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="username" placeholder="Enter Username Here" />
+        <br/><br/>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" placeholder="Enter Password Here" />
+        <br /><br />
+        <label for="gender">Choose Gender: </label>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" />
+        <br /><br />
+        <label for="preffered_location">Preferred Location: </label>
+        <input type="checkbox" name="location" id="south_india" />
+        <label for="south_india">South India</label>
+        <input type="checkbox" name="location" id="north_india" />
+        <label for="south_india">North India</label>
+        <input type="checkbox" name="location" id="east_india" />
+        <label for="south_india">East India</label>
+        <input type="checkbox" name="location" id="west_india" />
+        <label for="south_india">West India</label>
+        <br /><br />
+        <label for="file-select">Upload Profile Picture: </label>
+        <input type="file" name="file-select" id="file-select" />
+        <br /><br />
+        <label for="current_city">Current City: </label>
+        <select name="current_city" id="current_city">
+            <option value="default">Select Current City</option>
+            <option value="delhi">Delhi</option>
+            <option value="melbourne">Melbourne</option>
+            <option value="new_york">New York</option>
+        </select>
+        <br /><br />
+        <fieldset style="width: 400px;padding: 20px;">
+            <legend>Contact Details</legend>
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email" />
+            <br /><br />
+            <label for="contact">Contact Number: </label>
+            <input type="text" name="contact" id="contact" />
+            <br /><br />
+            <input type="button" value="Subscribe Here">
+        </fieldset>
+        <br /><br />
+        <input type="button" value="Click Me" onclick="alert('Say Hi');">
+        <input type="submit" value="Login">
+        <input type="reset" value="Clear Fields">
+    </form>
+</body>
+</html>
