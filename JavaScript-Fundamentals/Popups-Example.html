@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="onDelete()">Delete</button>
+    <button onclick="onValidate()">Validate Age</button>
+    <script>
+        // Alert Popup
+        alert('Hello Everyone');
+        // Confirm Box
+        function onDelete() {
+            if(confirm('Do you wish to delete?') == true) {
+                document.write('Delete Operation Completed Successfully.');
+            } else {
+                document.write('Delete Operation Aborted.');
+            }
+        }
+        // Prompt Box
+        function onValidate() {
+            var age = prompt('Enter Age to Validate : ', 18);
+            if(age >= 18) {
+                document.write('You are valid to take vaccination.');
+            } else {
+                document.write('Sorry, Your age is not valid. You can wait further.');
+            }
+        }
+
+    </script>
+</body>
+</html>
