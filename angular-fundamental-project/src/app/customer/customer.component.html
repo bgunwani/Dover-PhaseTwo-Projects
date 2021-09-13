@@ -1,0 +1,54 @@
+<h2>{{title}}</h2>
+
+<!-- <h3>Interpolation Binding: </h3>
+<p>Customer Code: {{customerObj.CustomerCode}}</p>
+<p>Customer Name: {{customerObj.CustomerName}}</p>
+<p>Customer Amount: {{customerObj.CustomerAmount}}</p> -->
+
+<!-- <h3>Interpolation Binding: </h3>
+<p>Customer Code: {{custObj.CustomerCode}}</p>
+<p>Customer Name: {{custObj.CustomerName}}</p>
+<p>Customer Amount: {{custObj.CustomerAmount}}</p> -->
+
+<!-- <h3>Interpolation Binding: </h3>
+<p>Customer Code: {{customer.CustomerCode}}</p>
+<p>Customer Name: {{customer.CustomerName}}</p>
+<p>Customer Amount: {{customer.CustomerAmount}}</p> -->
+
+<!-- <h3>Interpolation Binding: </h3>
+<p>Customer Code: {{customerData.CustomerCode}}</p>
+<p>Customer Name: {{customerData.CustomerName}}</p>
+<p>Customer Amount: {{customerData.CustomerAmount}}</p> -->
+
+<!-- ******************************************************* -->
+
+<h3>Interpolation Binding: </h3>
+<p>Customer Code: {{customerObj.CustomerCode}}</p>
+<p>Customer Name: {{customerObj.CustomerName}}</p>
+<p>Customer Amount: {{customerObj.CustomerAmount}}</p>
+
+<!-- <h3>Property Binding/One-Way Data Binding: (Model/Controller to View)</h3>
+<p>Customer Code: <input type="text" name="CustomerCode" [value]="customerObj.CustomerCode" /></p>
+<p>Customer Name: <input type="text" name="CustomerName" [value]="customerObj.CustomerName" /></p>
+<p>Customer Amount: <input type="text" name="CustomerAmount" [value]="customerObj.CustomerAmount" /></p> -->
+
+<!-- <h3>Event Binding/One-Way Data Binding: (View to Model/Controller)</h3>
+<p>Customer Code: <input type="text" name="CustomerCode" (input)="customerObj.CustomerCode=$any($event.target).value" /></p>
+<p>Customer Name: <input type="text" name="CustomerName" (input)="customerObj.CustomerName=$any($event.target).value" /></p>
+<p>Customer Amount: <input type="text" name="CustomerAmount" (input)="customerObj.CustomerAmount=$any($event.target).value" /></p> -->
+
+<!-- <h3>Two-Way Data Binding: (Model/Controller to View to Model/Controller)</h3>
+<p>Customer Code: <input type="text" name="CustomerCode" 
+    [value]="customerObj.CustomerCode"
+    (input)="customerObj.CustomerCode=$any($event.target).value" /></p>
+<p>Customer Name: <input type="text" name="CustomerName" 
+    [value]="customerObj.CustomerName"
+    (input)="customerObj.CustomerName=$any($event.target).value" /></p>
+<p>Customer Amount: <input type="text" name="CustomerAmount" 
+    [value]="customerObj.CustomerAmount"
+    (input)="customerObj.CustomerAmount=$any($event.target).value" /></p> -->
+
+<h3>Two-Way Data Binding: (Using ngModel)</h3>
+<p>Customer Code: <input type="text" name="CustomerCode" [(ngModel)]="customerObj.CustomerCode" /></p>
+<p>Customer Name: <input type="text" name="CustomerName" [(ngModel)]="customerObj.CustomerName" /></p>
+<p>Customer Amount: <input type="text" name="CustomerAmount" [(ngModel)]="customerObj.CustomerAmount" /></p>

@@ -1,0 +1,10 @@
+
+<h2>Login Page</h2>
+
+<p>Username: <input type="text" name="username" 
+    [(ngModel)]="userObj.username" /></p>
+<p>Password: <input type="password" name="password" 
+    [(ngModel)]="userObj.password" /></p>
+<p><input type="button" value="Login" (click)="login()" /></p>
+
+<p *ngIf="flag">{{error_message}}</p>
