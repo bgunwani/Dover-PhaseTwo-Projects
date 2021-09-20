@@ -1,0 +1,29 @@
+
+<div class="card">
+    <div class="card-header">
+        User Detail of <b>{{ user.name }}</b>
+    </div>
+    <div class="card-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th style="width: 40%;">User Id</th>
+                    <td>{{ user.id }}</td>
+                </tr>
+                <tr>
+                    <th style="width: 40%;">User Name</th>
+                    <td>{{ user.name }}</td>
+                </tr>
+                <tr>
+                    <th style="width: 40%;">User Email</th>
+                    <td>{{ user.email }}</td>
+                </tr>
+            </thead>
+        </table>
+    </div> 
+    <div class="card-footer">
+        <a routerLink='/users' class="btn btn-secondary">Go Back</a> | 
+        <a class="btn btn-danger">Delete</a> |
+        <a class="btn btn-success">Update</a>
+    </div>
+</div>

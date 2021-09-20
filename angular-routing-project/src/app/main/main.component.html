@@ -1,0 +1,39 @@
+<!-- Header Start -->
+<header class="p-3 bg-dark text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a routerLink='home' class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a routerLink='about' class="nav-link px-2 text-white">About</a></li>
+          <li><a routerLink='users' class="nav-link px-2 text-white">Users</a></li>
+          <li><a routerLink='contact' class="nav-link px-2 text-white">Contact</a></li>
+          <li><a routerLink='support' class="nav-link px-2 text-white">Support</a></li>
+        </ul>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2">Login</button>
+          <button type="button" class="btn btn-warning">Sign-up</button>
+        </div>
+      </div>
+    </div>
+  </header>
+<!-- Header End -->
+<!-- Content Start -->
+<main>
+
+    <div class="container py-4">
+      <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container-fluid py-5">
+            <router-outlet>
+                <!-- Respective Component will be rendered here.. -->
+            </router-outlet>
+        </div>
+      </div>
+    </div>
+
+  </main>  
+<!-- Content End -->
