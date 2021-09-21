@@ -1,0 +1,22 @@
+<h3>Update Existing Employee</h3>
+<br />
+<form>
+    <div class="mb-3">
+        <input type="text" class="form-control" name="name" [(ngModel)]="employee.name" placeholder="Employee Name" />
+    </div>
+    <div class="mb-3">
+        <input type="text" class="form-control" name="salary" [(ngModel)]="employee.salary"
+            placeholder="Employee Salary" />
+    </div>
+    <div class="mb-3">
+        <input type="text" class="form-control" name="designation" [(ngModel)]="employee.designation"
+            placeholder="Employee Designation" />
+    </div>
+    <div class="mb-3">
+        <input type="text" class="form-control" name="gender" [(ngModel)]="employee.gender"
+            placeholder="Employee Gender" />
+    </div>
+
+    <a class="btn btn-secondary" routerLink="/employees">Go Back</a> |
+    <button type="submit" class="btn btn-success" (click)="updateEmployee()">Update</button>
+</form>

@@ -1,0 +1,39 @@
+{
+  "employees": [
+    {
+      "id": 1003,
+      "name": "Sarah Bowling",
+      "salary": "65000",
+      "designation": "Project Manager",
+      "gender": "Female"
+    },
+    {
+      "name": "Roger Lee",
+      "salary": "12000",
+      "designation": "Assistant",
+      "gender": "Male",
+      "id": 1004
+    },
+    {
+      "name": "Shreya Sharma",
+      "salary": "40000",
+      "designation": "Developer",
+      "gender": "Female",
+      "id": 1005
+    },
+    {
+      "name": "Bhawna Gunwani",
+      "salary": "20000",
+      "designation": "Assistant",
+      "gender": "Female",
+      "id": 1006
+    },
+    {
+      "name": "Gautam Bhalla",
+      "salary": "45000",
+      "designation": "Developer",
+      "gender": "Male",
+      "id": 1007
+    }
+  ]
+}
