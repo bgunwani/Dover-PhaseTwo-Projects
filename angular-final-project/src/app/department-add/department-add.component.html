@@ -1,0 +1,15 @@
+<p>department-add works!</p>
+
+<form>
+    <div class="mb-3">
+        <input type="text" class="form-control" name="name" [(ngModel)]="department.name"
+            placeholder="Department Name" />
+    </div>
+    <div class="mb-3">
+        <input type="text" class="form-control" name="location" [(ngModel)]="department.location"
+            placeholder="Department Location" />
+    </div>
+
+    <a class="btn btn-secondary" routerLink="/departments">Go Back</a> |
+    <button type="submit" class="btn btn-success" (click)="addDepartment()">Submit</button>
+</form>

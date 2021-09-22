@@ -1,13 +1,6 @@
 {
   "employees": [
     {
-      "id": 1003,
-      "name": "Sarah Bowling",
-      "salary": "65000",
-      "designation": "Project Manager",
-      "gender": "Female"
-    },
-    {
       "name": "Roger Lee",
       "salary": "12000",
       "designation": "Assistant",
@@ -34,6 +27,42 @@
       "designation": "Developer",
       "gender": "Male",
       "id": 1007
+    }
+  ],
+  "departments": [
+    {
+      "id": 50001,
+      "name": "Sales",
+      "location": "Chennai"
+    },
+    {
+      "id": 50002,
+      "name": "Development",
+      "location": "Mumbai"
+    },
+    {
+      "id": 50003,
+      "name": "Testing",
+      "location": "Bangalore"
+    },
+    {
+      "name": "Administration",
+      "location": "Hyderabad",
+      "id": 50004
+    }
+  ],
+  "users": [
+    {
+      "id": 90001,
+      "name": "King Kochhar",
+      "username": "king",
+      "password": "123456"
+    },
+    {
+      "id": 90002,
+      "name": "Bhawna Gunwani",
+      "username": "bhawna",
+      "password": "123456"
     }
   ]
 }

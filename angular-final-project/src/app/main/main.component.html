@@ -10,11 +10,20 @@
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 <li><a routerLink="home" class="nav-link px-2 text-secondary">Home</a></li>
                 <li><a routerLink="employees" class="nav-link px-2 text-white">Employees</a></li>
+                <li><a routerLink="departments" class="nav-link px-2 text-white">Departments</a></li>
             </ul>
 
             <div class="text-end">
-                <button type="button" class="btn btn-outline-light me-2">Login</button>
-                <button type="button" class="btn btn-warning">Sign-up</button>
+
+                <div *ngIf="checkLoginStatus()">
+                    <button (click)="logout()" class="btn btn-danger">Logout</button>
+                </div>
+
+                <div *ngIf="!checkLoginStatus()">
+                    <a routerLink='login' class="btn btn-outline-light me-2">Login</a>
+                    <a routerLink='register' class="btn btn-warning me-2">Register</a>
+                </div>
+
             </div>
         </div>
     </div>

@@ -10,6 +10,12 @@ import { EmployeesComponent } from './employees/employees.component';
 import { EmployeeAddComponent } from './employee-add/employee-add.component';
 import { EmployeeDetailComponent } from './employee-detail/employee-detail.component';
 import { EmployeeUpdateComponent } from './employee-update/employee-update.component';
+import { DepartmentComponent } from './department/department.component';
+import { DepartmentService } from './services/department.service';
+import { DepartmentAddComponent } from './department-add/department-add.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,12 @@ import { EmployeeUpdateComponent } from './employee-update/employee-update.compo
     EmployeesComponent,
     EmployeeAddComponent,
     EmployeeDetailComponent,
-    EmployeeUpdateComponent
+    EmployeeUpdateComponent,
+    DepartmentComponent,
+    DepartmentAddComponent,
+    PageNotFoundComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +37,7 @@ import { EmployeeUpdateComponent } from './employee-update/employee-update.compo
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [DepartmentService],
   bootstrap: [MainComponent]
 })
 
